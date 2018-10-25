@@ -9,15 +9,15 @@
 
 Diamond price prediction
 ========================================================
-author: Raed Abdel Sater
-date: 21 | November |   2017
+author: S.Giles
+date: 23 | October |   2018
 autosize: true
 transition: rotate
 transition-speed: slow
 
 Overview
 ========================================================
-The world diamond market is represented by diamond mining and trade in rough diamonds. The bulk of the world diamond mining is concentrated in nine countries, with their share in the global production in physical terms as high as 99%. The world’s largest producers of natural diamonds are Russia, the Democratic Republic of Congo (DRC) and Botswana, all together accounting over 60% of the global diamond production. [**here**] (https://github.com/Jagoul/Developing_Data_Products_Week4)
+The world diamond market is represented by diamond mining and trade in rough diamonds. The bulk of the world diamond mining is concentrated in nine countries, with their share in the global production in physical terms as high as 99%. The world’s largest producers of natural diamonds are Russia, the Democratic Republic of Congo (DRC) and Botswana, all together accounting over 60% of the global diamond production. [**here**] (https://github.com/giles1911/Develop_Data_Products_Final_Project)
 
 The Shiny application it is building linear regression model using the famous data set `diamonds` and is predicting the market price based on quality and specifications.The application allows the user to pre-define:
 - Carat
@@ -69,7 +69,7 @@ The application is build using Shiny package and the source code is in 2 files:
 - `ui.R`
 - `server.R`
 
-Both files can be found here: [GitHub repo](https://github.com/Jagoul/Developing_Data_Products_Week4)
+Both files can be found here: [GitHub repo](https://github.com/giles1911/Develop_Data_Products_Final_Project)
 
 Documentation
 ========================================================
