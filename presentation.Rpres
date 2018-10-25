@@ -1,0 +1,60 @@
+<style type="text/css">
+
+.reveal pre code {
+  display: black; padding: 0.3em;
+  font-size: 1em;
+  
+</style>
+
+
+Diamond price prediction
+========================================================
+author: Raed Abdel Sater
+date: 21 | November |   2017
+autosize: true
+transition: rotate
+transition-speed: slow
+
+Overview
+========================================================
+The world diamond market is represented by diamond mining and trade in rough diamonds. The bulk of the world diamond mining is concentrated in nine countries, with their share in the global production in physical terms as high as 99%. The world’s largest producers of natural diamonds are Russia, the Democratic Republic of Congo (DRC) and Botswana, all together accounting over 60% of the global diamond production. [**here**] (https://github.com/Jagoul/Developing_Data_Products_Week4)
+
+The Shiny application it is building linear regression model using the famous data set `diamonds` and is predicting the market price based on quality and specifications.The application allows the user to pre-define:
+- Carat
+- Clarity
+- Cut
+- Color
+
+Now we will create a plot and try to predict the price of diamonds in the market.
+
+Data Analysis and General Information
+========================================================
+
+ussia ranks first in the world’s diamond production. ALROSA Group accounts for 93% of the total diamond production in the Russian Federation in physical terms, and it is the leader of the global diamond mining industry. Major mining companies are engaged in mining in the main diamond-producing countries, the exception being Zimbabwe and the DRC, where diamond deposits are developed by small companies and prospectors. The graph below represents the geography of the companies’ activities including exploration.
+This data set contains the information about 54000 diamonds with 10 specifications:
+```{r echo=FALSE}
+library(ggplot2)
+```
+
+```{r echo=FALSE}
+summary(diamonds)
+
+```
+
+Shiny files
+========================================================
+
+The application is build using Shiny package and the source code is in 2 files:
+- `ui.R`
+- `server.R`
+
+Both files can be found here: [GitHub repo](https://github.com/Jagoul/Developing_Data_Products_Week4)
+
+Documentation
+========================================================
+
+The application is drawing plot of diamonds in the `diamonds` data set distributed by their size (carat) and price ($). The regression line is shown on the plot as well. 
+
+By selecting specific features of the diamond (carat, cut, clarity, color) the user is able to sub select the data set and the regression is recalculated based only on the diamonds in the data set that share the same features. If no features are selected the regression model is using all diamonds in the data set.
+
+Below the graph shows the price of Diamonds based on quality.
