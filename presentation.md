@@ -1,10 +1,3 @@
-<style type="text/css">
-
-.reveal pre code {
-  display: black; padding: 0.3em;
-  font-size: 1em;
-  
-</style>
 
 
 Diamond price prediction
